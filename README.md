@@ -13,26 +13,29 @@
 >` passwd`
 
 ###IP von Archlinux anzeigen
-`ip addr `
+>`ip addr `
 
 ###Auf Manjaro ssh verbidung erstellen
-`ssh root@ip_von_Archlinux`
+>`ssh root@ip_von_Archlinux`
 
 #In zwischen setzen die Einstellungen für github um.
-`Create repisotory on Github`
+>`Create repisotory on Github`
 
 ###Create project file on Local computer
-`mkdir Projekt` 
+>`mkdir Projekt` 
 
-### start git
-`git init`
+###Start git
+>`git init`
+
 ###Push your projekt in staging Area
-`git add . '
+>`git add . '
+
 ###Commit your Changes
-`git commit -m "message" `
+>`git commit -m "message" `
+
 ###Proceedure for git
-`git remote set-url add origin #yourProjektLink`
-`git remote set-url origin #yourProjektLink`
-`git push -u origin master`
+>`git remote set-url add origin #yourProjektLink`
+>`git remote set-url origin #yourProjektLink`
+>`git push -u origin master`
 
 #Weiter zum Installation von Archlinux 
