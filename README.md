@@ -1,7 +1,7 @@
 #Archlinux Installation
 
 
-###FOto hinzufügen beispiel
+###Foto hinzufügen beispiel
 
 ![Alt-text](Bilder/first_foto.png )
 
@@ -10,7 +10,7 @@
 ` loadkeys de-latin1 `
 
 ###Password for root user
-' passwd'
+` passwd`
 
 ###IP von Archlinux anzeigen
 `ip addr `
@@ -22,17 +22,17 @@
 `Create repisotory on Github`
 
 ###Create project file on Local computer
-'mkdir Projekt' 
+`mkdir Projekt` 
 
 ### start git
-'git init'
+`git init`
 ###Push your projekt in staging Area
-'git add . '
+`git add . '
 ###Commit your Changes
-'git commit -m "message" '
+`git commit -m "message" `
 ###Proceedure for git
-'git remote set-url add origin #yourProjektLink'
-'git remote set-url origin #yourProjektLink'
-'git push -u origin master'
+`git remote set-url add origin #yourProjektLink`
+`git remote set-url origin #yourProjektLink`
+`git push -u origin master`
 
 #Weiter zum Installation von Archlinux 
