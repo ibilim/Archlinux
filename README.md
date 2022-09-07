@@ -1,7 +1,8 @@
 #Archlinux Installation
 
 ###Tastatur Layout
-' loadkeys de-latin1 '
+'''linux 
+	 loadkeys de-latin1 '''
 ###Password for root user
 ' passwd'
 ###IP von Archlinux anzeigen
