@@ -7,10 +7,10 @@
 
 
 ###Tastatur Layout
-` loadkeys de-latin1 `
+>` loadkeys de-latin1 `
 
 ###Password for root user
-` passwd`
+>` passwd`
 
 ###IP von Archlinux anzeigen
 `ip addr `
