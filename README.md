@@ -7,7 +7,7 @@
 
 
 ###Tastatur Layout
-	` loadkeys de-latin1 `
+	' loadkeys de-latin1 '
 
 ###Password for root user
 >` passwd`
@@ -47,5 +47,29 @@
 
 ![Alt-text](Bilder/lsblk.png) 
 
-###Formatiere festplatte
- 
+### Update system Datenbank
+
+	pacman -Syy
+### Mirrors Aktualisieren
+
+	reflector -c Germany -a 6 --sort rate --save /etc/pacman.d/mirrorlist
+### Datenbank aktualisieren
+
+	packman -Syy
+### Partitionierungstools starten
+
+	cfdisk /dev/sda
+1. 300MB  >> EFI	 EFI System
+2. 4GB    >> SWAP	SWAP	
+3. 30 GB  >> /		LinuxFileSystem
+4. Rest  >>  /home	LinuxFileSystem		
+5. Write >>Quit
+
+### Partitionsformat
+	
+	mkfs.fat  -F32 /dev/sda1
+	mkswap /dev/sda2
+	swapon /dev/sda2
+	mkfs.ext4 /dev/sda3
+	mkfs.ext4 /dev/sda4
+
