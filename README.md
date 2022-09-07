@@ -70,14 +70,20 @@
 ### Partitionsformat
 
 ###EFI FORMAT
+
 	mkfs.fat  -F32 /dev/sda1
+
 ###SWAP Format
+
 	mkswap /dev/sda2
 ###SWAP aktivierien
+
 	swapon /dev/sda2
 ###Root Format
+
 	mkfs.ext4 /dev/sda3
 ###Home Format
+
 	mkfs.ext4 /dev/sda4
 
 
