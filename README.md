@@ -35,7 +35,9 @@
 
 ###Proceedure for git
 >`git remote set-url add origin #yourProjektLink`
+
 >`git remote set-url origin #yourProjektLink`
+
 >`git push -u origin master`
 
 #Weiter zum Installation von Archlinux 
