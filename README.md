@@ -1,12 +1,11 @@
 #Archlinux Installation
 
 ###Tastatur Layout
-'''linux 
-	 loadkeys de-latin1 '''
+` loadkeys de-latin1 `
 ###Password for root user
 ' passwd'
 ###IP von Archlinux anzeigen
-'ip addr '
+`ip addr `
 ###Auf Manjaro ssh verbidung erstellen
 'ssh root@ip_von_Archlinux'
 #In zwischen setzen die Einstellungen für github um.
