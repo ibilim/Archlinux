@@ -86,4 +86,22 @@
 
 	mkfs.ext4 /dev/sda4
 
- ![Alt-text](Bilder/partitionformat.png)
+ ![Alt-text](Bilder/partitionformat.png) 
+
+### Partition Montieren 
+	
+	mount /dev/sda3  /mnt
+	
+	mkdir -p /mnt/boot/efi
+
+	mount /dev/sda1 /mnt/boot/efi
+
+	mkdir /mnt/boot/efi
+	
+	mount /dev/sda4 /mnt/home
+
+
+
+
+
+

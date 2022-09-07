@@ -60,9 +60,9 @@ EFI:
 ### Zeit Synchronisieren
     hwclock --systohc
 ### Locales
-    echo 'de_DE.UTF-8 UTF-8' >>/mnt/etc/locale.gen
-    echo 'en_US.UTF-8 UTF-8' >>/mnt/etc/locale.gen
-    echo 'LANG=de_DE.UTF-8' >>/mnt/etc/locale.conf
+    echo 'de_DE.UTF-8 UTF-8' >>/etc/locale.gen
+    echo 'en_US.UTF-8 UTF-8' >>/etc/locale.gen
+    echo 'LANG=de_DE.UTF-8' >>/etc/locale.conf
     echo "arch" >> /etc/hostname
     echo "127.0.0.1 localhost" >> /etc/hosts
     echo "::1       localhost" >> /etc/hosts
