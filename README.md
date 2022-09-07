@@ -7,7 +7,7 @@
 
 
 ###Tastatur Layout
->` loadkeys de-latin1 `
+	` loadkeys de-latin1 `
 
 ###Password for root user
 >` passwd`
@@ -40,4 +40,12 @@
 
 >`git push -u origin master`
 
-#Weiter zum Installation von Archlinux 
+#Weiter zum Installation von Archlinux
+
+###Lese festplatte 
+>`lsblk`
+
+![Alt-text](Bilder/lsblk.png) 
+
+###Formatiere festplatte
+ 
