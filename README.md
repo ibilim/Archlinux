@@ -86,4 +86,4 @@
 
 	mkfs.ext4 /dev/sda4
 
-
+ ![Alt-text](Bilder/partitionformat.png)
